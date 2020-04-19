@@ -1,0 +1,26 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "dependencies": {
+  },
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "postReminder",
+      "functionName": "postReminder"
+    }, {
+      "menuName": "record",
+      "functionName": "record"
+    }, {
+      "menuName": "postSlack",
+      "functionName": "postSlack"
+    }, {
+      "menuName": "doPost",
+      "functionName": "doPost"
+    }]
+  }
+}
