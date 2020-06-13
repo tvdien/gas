@@ -10,7 +10,7 @@ function postSlack(text){
 
 // Morning reminder
 function postReminder(e) {
-  var message = "Good morning :sunny: :cloud: :rain_cloud: ！\nDon't forget to record your daily action\n coffee = :coffee:\nshoppping = :shopping_trolley:\nrunning = :running:";
+  var message = "おはようございます！\n今日も記録しましょう\n coffee = :coffee:\nshoppping = :shopping_trolley:\nrunning = :running:";
   postSlack(message);
 }
 
@@ -22,7 +22,7 @@ function doPost(e) {
 }
 
 function record(data) {
-  var recordSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('records');
+  var recordSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('records'); // 記録シートを取得;
   var lastRow = recordSheet.getLastRow();
   var nextRow = lastRow + 1;
 
