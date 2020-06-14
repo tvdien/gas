@@ -4,7 +4,9 @@
   "description": "Google App Script with Slack",
   "private": true,
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "gulp",
+    "upload": "clasp push",
+    "update": "gulp && clasp push"
   },
   "repository": {
     "type": "git",
