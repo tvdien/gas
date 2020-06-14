@@ -1,0 +1,28 @@
+{
+  "name": "gas-slack",
+  "version": "0.0.1",
+  "description": "Google App Script with Slack",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tvdien/gas.git"
+  },
+  "keywords": [
+    "Google App Script",
+    "Slack"
+  ],
+  "author": "Tran Van Dien",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tvdien/gas/issues"
+  },
+  "homepage": "https://github.com/tvdien/gas#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-replace": "^1.0.0"
+  },
+  "dependencies": {}
+}
